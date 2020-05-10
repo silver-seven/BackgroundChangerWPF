@@ -1,0 +1,15 @@
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\bin\Debug\BackgroundChanger.exe.config
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\bin\Debug\BackgroundChanger.exe
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\bin\Debug\BackgroundChanger.pdb
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\obj\Debug\BackgroundChanger.csprojAssemblyReference.cache
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\obj\Debug\MainWindow.g.cs
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\obj\Debug\App.g.cs
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\obj\Debug\BackgroundChanger_MarkupCompile.cache
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\obj\Debug\BackgroundChanger_MarkupCompile.lref
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\obj\Debug\MainWindow.baml
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\obj\Debug\BackgroundChanger.g.resources
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\obj\Debug\BackgroundChanger.Properties.Resources.resources
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\obj\Debug\BackgroundChanger.csproj.GenerateResource.cache
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\obj\Debug\BackgroundChanger.csproj.CoreCompileInputs.cache
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\obj\Debug\BackgroundChanger.exe
+F:\Dev\Prj\forms\BackgroundChanger\BackgroundChanger\BackgroundChanger\obj\Debug\BackgroundChanger.pdb

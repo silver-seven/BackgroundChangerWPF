@@ -1,0 +1,54 @@
+﻿<Window x:Class="BackgroundChanger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BackgroundChanger"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <Image x:Name="ImagePreview" Grid.ColumnSpan="3" Grid.Column="1" Grid.Row="1" Height="100"/>
+
+        <TextBlock x:Name="LabelName" Text="Name" Grid.Row="2" Grid.Column="1" FontWeight="Bold" Margin="0,5" />
+        <TextBlock x:Name="LabelPath" Text="Path" Grid.Row="3" Grid.Column="1" FontWeight="Bold" Margin="0,5" />
+        <TextBlock x:Name="LabelStyle" Text="Style" Grid.Row="4" Grid.Column="1" FontWeight="Bold" Margin="0,5" />
+        <TextBlock x:Name="LabelTimer" Text="Timer" Grid.Row="5" Grid.Column="1" FontWeight="Bold" Margin="0,5" />
+        <TextBlock x:Name="LabelBufferSize" Text="BufferSize" Grid.Row="6" Grid.Column="1" FontWeight="Bold" Margin="0,5" />
+        <TextBlock x:Name="LabelFavFreq" Text="FavFreq" Grid.Row="7" Grid.Column="1" FontWeight="Bold" Margin="0,5" />
+
+        <TextBox x:Name="textBoxName" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Width="200" IsEnabled="False" Text="textBoxName" HorizontalAlignment="Left" Margin="0,5" />
+        <TextBox x:Name="textBoxPath" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Width="200" Text="textBoxPath" IsEnabled="False" HorizontalAlignment="Left" Margin="0,5" />
+
+        <ComboBox x:Name="comboBoxStyle" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="1"  Width="100" HorizontalAlignment="Left" Margin="0,5"/>
+        <Slider x:Name="sliderTimer" Grid.Row="5" Grid.Column="2" Width="100" HorizontalAlignment="Left" Margin="0,5" />
+        <Slider x:Name="sliderBufSize" Grid.Row="6" Grid.Column="2" Width="100" HorizontalAlignment="Left" Margin="0,5" />
+        <Slider x:Name="sliderFavFreq" Grid.Row="7" Grid.Column="2" Width="100" HorizontalAlignment="Left" Margin="0,5" />
+
+        <Button x:Name="buttonSwitch" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="3" Content="Switch" Width="250" HorizontalAlignment="Left" FontWeight="Bold" Margin="0,5"/>
+        <Button x:Name="buttonPause" Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Content="Pause" Width="250" HorizontalAlignment="Left" FontWeight="Bold" Margin="0,5"/>
+        <Button x:Name="buttonSelect" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="3" Content="Select" Width="250" HorizontalAlignment="Left" FontWeight="Bold" Margin="0,5"/>
+    </Grid>
+</Window>
